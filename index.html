@@ -1,22 +1,32 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Sara Hakkoum | Home</title>
+		<title>Home | Sara Hakkoum</title>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+		<link href='http://fonts.googleapis.com/css?family=Lora|Roboto:100,300' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" type="text/css" href="./styles.css" />
-		<link href='http://fonts.googleapis.com/css?family=Open+Sans:600' rel='stylesheet' type='text/css'>
+		<link rel="icon" href="./resources/favicon.ico">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 		<script type="text/javascript" src="./javascript.js"></script>
 	</head>
 
 	<body>
 		<header>
-			<nav>
-				<a href="./index.html">Home</a>
-				<a href="./portfolio.html">Portfolio</a>
-				<a href="./resume.html">Resume</a>
-				<a href="#"></a>
-				<a href="#"></a>
-				<a href="./contact.html">Contact</a>
-			</nav>
+			<div id="nav-div">
+				<nav>
+					<a href=".">home</a>
+					<a href="./about-me">about me</a>
+					<a href="./portfolio">portfolio</a>
+					<a href="./resume">resume</a>
+					<a href="./photography">photography</a>
+					<a href="./contact-me">contact</a>
+				</nav>
+			</div>
+
+			<div id="header-img-div">
+				<img src="./resources/header-original" alt="Header" id="header-img" />
+				<div id="header-name">Sara Hakkoum</div>
+			</div>
 		</header>
 
 		<main>
@@ -28,7 +38,11 @@
 		</main>
 
 		<footer>
-			<address>Sara Hakkoum 2015.</address>
+			<div id="copyright">© Sara Hakkoum 2015.</div>
 		</footer>
+
+		<script type="text/javascript">
+			$(function() { render(); });
+		</script>
 	</body>
 </html>

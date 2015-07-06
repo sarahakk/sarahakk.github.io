@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="./themes/Portfolio.min.css" />
+		<link rel="stylesheet" href="./themes/jquery.mobile.icons.min.css" />
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+		<link href='http://fonts.googleapis.com/css?family=Lora|Roboto:100,300,400' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="stylesm.css" />
+		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+		<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+		<script type="text/javascript" src="./javascriptm.js"></script>
+	</head>
+
+	<body><div data-role="page" id="home">
+			<div data-role="header">
+				<h1>Sara Hakkoum</h1>
+				<a href="#menu-panel" id="menu-btn" class="ui-btn ui-icon-bars ui-btn-icon-notext ui-corner-all">Menu</a>
+			</div>
+
+			<div data-role="main" class="ui-content">
+				<img src="./images/header-mobile.jpg" alt="Header" id="header-img" />
+				<section>
+					<h1>who?</h1>
+					<article>
+						I am a student, programmer, dreamer, and over-achiever.<br />
+						Currently majoring in Computer Science at a state university in Massachusetts,
+						I hope to someday combine the knowledge I acquire with my love for science.
+					</article>
+				</section>
+
+				<img src="./images/home-self-mobile.jpg" alt="Self" class="image" />
+
+				<section>
+					<h1>how?</h1>
+					<article>
+						I have no clue!<br />
+						All I know is that life is short, and I don't want to live mine without
+						a complete appreciation of the breadth of knowledge our species has managed
+						to obtain and without giving something back in the little time I have.
+					</article>
+				</section>
+
+				<section>
+					<h1>what else?</h1>
+					<article>
+						You can learn more about me on this website. Feel free to contact me with any
+						thoughts, comments, or opportunities.
+					</article>
+				</section>
+			</div>
+		</div>
+
+		<div data-role="page" id="about">
+			<div data-role="header">
+				<h1>About Me</h1>
+				<a href="#menu-panel" id="menu-btn" class="ui-btn ui-icon-bars ui-btn-icon-notext ui-corner-all">Menu</a>
+			</div>
+
+			<div data-role="main" class="ui-content">
+				<img src="./images/about-dubai.jpg" alt="Dubai" class="image" />
+
+				<section>
+					<h1>history</h1>
+					<article>
+						Born in Boston, raised in Dubai, I found myself moving to Lebanon to live with
+						my sister at 15. I had already changed schools multiple times by then,
+						and was craving another change. Three years later, and here I am back where I started.
+					</article>
+				</section>
+
+				<img src="./images/about-uob.jpg" alt="Balamand" class="image" />
+
+				<section>
+					<h1>education</h1>
+					<article>
+						After graduating from a high school in a rural Lebanese town, I attended
+						University of Balamand for a year as a mandatory undeclared major. I kept
+						telling myself I didn't want to major in anything scientific the following year,
+						despite the fact that I had higher scores in my science courses. I wanted to be
+						involved in art: interior design, industrial design, photography, anything...
+						But I finally decided to work my strengths, and am very glad I did.
+					</article>
+				</section>
+
+				<section>
+					<h1>currently</h1>
+					<article>
+						Today I am a Computer Science major at Framingham State University, hoping
+						to work towards a minor in Physics as well. I had hardly any programming experience
+						before starting the program, and have an eternity of self-teaching ahead of me.
+						This summer, I am interning as a Software Engineer at Rocket Software, Inc.
+						where I have taken on a challenging project that I hope to complete by fall.
+					</article>
+				</section>
+
+				<img src="./images/about-harvard.jpg" alt="Museum" class="image" />
+			</div>
+		</div>
+
+		<div data-role="page" id="portfolio">
+			<div data-role="header">
+				<h1>Portfolio</h1>
+				<a href="#menu-panel" id="menu-btn" class="ui-btn ui-icon-bars ui-btn-icon-notext ui-corner-all">Menu</a>
+			</div>
+
+			<div data-role="main" class="ui-content">
+				<section>
+					<h1 class="portfolio-title">medical system</h1>
+					<article>
+						The most significant project I have worked on for my coursework was a medical program designed to be used
+						by doctors in a small clinic in order to keep track of patient information and their visits, as well as
+						to create lab orders and prescriptions. This was a group project for the class Graphical User Interface
+						Programming Using Java and was more concerned with user-friendliness than real-life usability.
+						With that in mind, it was a great project for practicing my team programming skills and learning new,
+						unrelated technologies along the way.
+					</article>
+				</section>
+
+				<img src="../resources/guimd.png" alt="GUI" class="image" />
+
+				<section>
+					<h1 class="portfolio-specs">specs</h1>
+					<article>
+						<ul class="portfolio-list">
+							<li>MySQL Server used to create database that is updated and queried as the program is
+								used, with the help of Java Database Connectivity (JDBC).</li>
+							<li>Amazon AWS S3 used to store database in cloud for the purpose of sharing data with
+								any computer that runs the program. Also used to store lab result image files.</li>
+							<li>Java Swing was used for all GUI components.</li>
+							<li>Github was used for each member to efficiently share and push code.</li>
+							<li>Maven was used to build and maintain the project.</li>
+						</ul>
+					</article>
+				</section>
+
+				<section>
+					<h1 class="portfolio-title">library database</h1>
+					<article>
+						Another project I put a lot of work into was a Java command-line program with its own menu
+						and interface that allowed users to store information about books they own and perform functions
+						such as searching. This was for my Computer Science Using Java II course.
+						What made this project challenging was the fact that no external database was
+						used to store the data. With more time, I would have liked to add the feature to create "bookshelves"
+						which users can use to categorize their books and search through accordingly.
+					</article>
+				</section>
+
+				<img src="../resources/library.jpg" alt="library" class="image" />
+
+				<section>
+					<h1 class="portfolio-specs">specs</h1>
+					<article>
+						<ul class="portfolio-list">
+							<li>Java Collections Framework used to store and maintain user-generated data.</li>
+							<li>Serialization used to store data structures in program state.</li>
+							<li>Composition used to enforce hierarchy of data: User > Libraries > Shelves > Books</li>
+						</ul>
+					</article>
+				</section>
+
+				<section>
+					<h1 class="portfolio-title">rocket software</h1>
+					<article>
+						Currently, the project I am assigned to work on during my internship is concerned with
+						creating a framework for an internal unified licensing server for Rocket's products in
+						order to ease the process of generating license keys. Below is a list of the
+						languages/technologies I am actively using or have been exposed to so far.
+					</article>
+				</section>
+
+				<section>
+					<h1 class="portfolio-specs">specs</h1>
+					<article>
+						<ul class="portfolio-list">
+							<li>Java, HTML, CSS, JavaScript, jQuery, PHP, MySQL Server, Linux (Red Hat), C#</li>
+						</ul>
+					</article>
+				</section>
+			</div>
+		</div>
+
+		<div data-role="page" id="resume">
+			<div data-role="header">
+				<h1>Resume</h1>
+				<a href="#menu-panel" id="menu-btn" class="ui-btn ui-icon-bars ui-btn-icon-notext ui-corner-all">Menu</a>
+			</div>
+
+			<div data-role="main" class="ui-content">
+				<div id="resume-top">
+					<img src="./images/profile.jpg" alt="Profile" id="resume-img" />
+					<h1>Sara Hakkoum</h1>
+				</div>
+
+				<section>
+                	<article>
+                    	A determined and hardworking Computer Science student with a passion for learning and helping others.
+                    	Excellent organizational skills and attention to detail.
+                    	Collaborative team member with effective communication skills.
+                	</article>
+                </section>
+
+                <div data-role="collapsibleset">
+                    <div data-role="collapsible">
+                        <h1>Education</h1>
+                        <ul data-role="listview">
+                            <li>
+                                <p class="caption">Framingham State University</p>
+                                <p>Bachelor of Science in Computer Science<br />
+                                Minor in Physics<br />
+                                Spring 2014 - Present</p>
+                            </li>
+                            <li>
+                                <p class="caption">University of Balamand, Lebanon</p>
+                                <h5>General Studies</h5>
+                                <h6>Fall 2012 - Spring 2013</h6>
+                            </li>
+                        </ul>
+                    </div>
+                    <div data-role="collapsible">
+                        <h1>Technical Knowledge</h1>
+                        <ul data-role="listview">
+                            <li data-role="list-divider">Programming</li>
+                            <li>Java</li>
+                            <li>C</li>
+                            <li>HTML, CSS</li>
+                            <li>JavaScript, jQuery</li>
+                            <li>PHP</li>
+                            <li>SQL</li>
+                            <li data-role="list-divider">Operating Systems</li>
+                            <li>Windows</li>
+                            <li>Apple OS X</li>
+                            <li>Linux/UNIX</li>
+                            <li data-role="list-divider">Misc.</li>
+                            <li>NetBeans, Eclipse</li>
+                            <li>MySQL Server</li>
+                            <li>Adobe Photoshop, Lightroom</li>
+                        </ul>
+                    </div>
+                    <div data-role="collapsible">
+                        <h1>Experience</h1>
+                        <ul data-role="listview">
+                            <li data-role="list-divider">Software Engineering Intern</li>
+                            <li>
+                                <p class="caption">
+                                    Rocket Software<br>
+                                    Waltham, MA<br>
+                                    May 2015 - Present
+                                </p>
+                            </li>
+                            <li data-role="list-divider">Service Desk Technician</li>
+                            <li>
+                                <p class="caption">
+                                    Information Technology Services, Framingham State University<br>
+                                    Framingham, MA<br>
+                                    August 2014 - Present
+                                </p>
+                                <ul>
+                                    <li>Provide prompt customer service to students, faculty and staff in a professional and courteous manner</li>
+                                    <li>Troubleshoot issues involving student, faculty and staff technology and classroom media</li>
+                                    <li>Log and classify tickets for all incidents that occur</li>
+                                    <li>Administer software support, services, and upgrades to customers</li>
+                                </ul>
+                            </li>
+                            <li data-role="list-divider">Assistant to Photographer</li>
+                            <li>
+                                <p class="caption">
+                                    Office of Student Affairs, University of Balamand<br>
+                                    Lebanon<br>
+                                    February 2013 - June 2013
+                                </p>
+                                <ul>
+                                    <li>Archived and backed up all photos and videos taken by the university's photography team</li>
+                                    <li>Implemented and maintained a system of archived photo access for students and employees</li>
+                                    <li>Photographed on and off-campus events, lectures, and meetings</li>
+                                    <li>Edited photos to be published in the university's website and newspaper</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div data-role="collapsible">
+                        <h1>Awards and Leadership</h1>
+                        <ul data-role="listview">
+                            <li>Dean's List, Framingham State University (Spring 2014 - Spring 2015)</li>
+                            <li>Secretary of Animal Welfare Club, University of Balamand, Lebanon (Spring 2013)</li>
+                            <li>SAT Merit Scholarship, University of Balamand, Lebanon (Fall 2012 - Spring 2013)</li>
+                        </ul>
+                    </div>
+                    <div data-role="collapsible">
+                        <h1>Languages</h1>
+                        <ul data-role="listview">
+                            <li>English (Native)</li>
+                            <li>Arabic (Native)</li>
+                            <li>French (Basic)</li>
+                            <li>American Sign Language (Basic)</li>
+                        </ul>
+                    </div>
+                </div>
+			</div>
+		</div>
+
+		<div data-role="page" id="photos">
+			<div data-role="header">
+				<h1>Photography</h1>
+				<a href="#menu-panel" id="menu-btn" class="ui-btn ui-icon-bars ui-btn-icon-notext ui-corner-all">Menu</a>
+			</div>
+
+			<div data-role="main" class="ui-content">
+				<section>
+					<h1>among my hobbies...</h1>
+					<article>
+						Ever since I picked up an old compact Kodak camera in 2010, amateur photography has been one of my favorite escapes.
+						All photos on this website were taken by me. My other interests include reading and volunteering (and cats).
+					</article>
+				</section>
+
+				<div id="photo-grid">
+					<img src="./images/img1-mobile.jpg" class="image" alt="1" />
+					<img src="./images/img2-mobile.jpg" class="image" alt="2" />
+					<img src="./images/img3-mobile.jpg" class="image" alt="3" />
+					<img src="./images/img4-mobile.jpg" class="image" alt="4" />
+					<img src="./images/img5-mobile.jpg" class="image" alt="5" />
+					<img src="./images/img6-mobile.jpg" class="image" alt="6" />
+					<img src="./images/img7-mobile.jpg" class="image" alt="7" />
+					<img src="./images/img8-mobile.jpg" class="image" alt="8" />
+					<img src="./images/img9-mobile.jpg" class="image" alt="9" />
+				</div>
+			</div>
+
+			<div data-role="popup" id="photo-enlarge">
+				<img src="" alt="Photo" id="photo-current" />
+			</div>
+		</div>
+
+		<div data-role="page" id="contact">
+			<div data-role="header">
+				<h1>Contact</h1>
+				<a href="#menu-panel" id="menu-btn" class="ui-btn ui-icon-bars ui-btn-icon-notext ui-corner-all">Menu</a>
+			</div>
+
+			<div data-role="main" class="ui-content">
+				<section>
+					<form action="mailto:sara.hakk24@gmail.com" method:"post" onsubmit="submitted()">
+						<legend>Use the form below to shoot me an email, or get in touch with me through social media.</legend>
+						<div data-role="fieldcontain" id="contact-form">
+							<label for="contact-name">Name:</label>
+							<input type="text" name="name" id="contact-name" value="" />
+							<label for="contact-email">Email:</label>
+							<input type="text" name="email" id="contact-email" value="" />
+							<label for="contact-subject">Subject:</label>
+							<input type="text" name="subject" id="contact-subject" value="" />
+							<label for="contact-message">Message:</label>
+							<textarea name="message" id="contact-message"></textarea>
+							<div id="contact-submit-div">
+								<input type="submit" name="submit" id="contact-submit" value="Submit" data-inline="true" />
+							</div>
+						</div>
+					</form>
+				</section>
+
+				<section id="contact-icon-set">
+					<a href="https://www.linkedin.com/in/sarahakkoum"><img src="../resources/in.png" class="contact-icon" /></a>
+					<a href="https://github.com/sarahakk"><img src="../resources/git.png" class="contact-icon" /></a>
+					<a href="https://twitter.com/sarabhakk"><img src="../resources/twit.png" class="contact-icon" /></a>
+					<a href="https://instagram.com/sarabhakk/"><img src="../resources/insta.png" class="contact-icon" /></a>
+					<a href="http://sarahakk.tumblr.com/"><img src="../resources/tumb.png" class="contact-icon" /></a>
+				</section>
+			</div>
+
+			<div data-role="popup" id="thank-you">
+				<h1>Thank you! I'll get back to you ASAP.</h1>
+			</div>
+		</div>
+
+		<div data-role="panel" id="menu-panel" data-position="left" data-display="overlay" data-theme="a">
+			<h1>Menu</h1>
+            <ul data-role="listview">
+                <li><a href="#" class="test ui-btn ui-icon-home ui-btn-icon-left">Home</a></li>
+                <li><a href="#" class="test ui-btn ui-icon-user ui-btn-icon-left">About Me</a></li>
+                <li><a href="#" class="test ui-btn ui-icon-grid ui-btn-icon-left">Portfolio</a></li>
+                <li><a href="#" class="test ui-btn ui-icon-bullets ui-btn-icon-left">Resume</a></li>
+                <li><a href="#" class="test ui-btn ui-icon-camera ui-btn-icon-left">Photography</a></li>
+                <li><a href="#" class="test ui-btn ui-icon-mail ui-btn-icon-left">Contact</a></li>
+            </ul>
+		</div>
+	</body>
+</html>
