@@ -14,10 +14,18 @@ else {
 		});
 	}
 
-	render();
-
 	function setContactSize() {
 		$("#contact-table, #contact-icon-set").height($("#contact-form").height());
+	}
+
+	render();
+
+	// Preload images
+	var images = new Array();
+
+	for (var i = 1; i < 10; i++) {
+		images[i] = new Image();
+		images[i].src = "../resources/img" + i + ".jpg";
 	}
 
 	$(function() {
