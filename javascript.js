@@ -18,8 +18,6 @@ else {
 		$("#contact-table, #contact-icon-set").height($("#contact-form").height());
 	}
 
-	render();
-
 	// Preload images
 	var images = new Array();
 
