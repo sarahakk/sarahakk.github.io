@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Contact Me | Sara Hakkoum</title>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+		<link href='http://fonts.googleapis.com/css?family=Lora|Roboto:100,300' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="../styles.css" />
+		<link rel="icon" href="../resources/favicon.ico">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script type="text/javascript" src="../javascript.js"></script>
+	</head>
+
+	<body>
+		<header>
+			<div id="nav-div">
+				<nav>
+					<a href="..">home</a>
+					<a href="../about-me">about me</a>
+					<a href="../portfolio">portfolio</a>
+					<a href="../resume">resume</a>
+					<a href="../photography">photography</a>
+					<a href="../contact-me">contact</a>
+				</nav>
+			</div>
+
+			<div id="header-img-div">
+				<img src="../resources/header-thin.jpg" alt="Header" id="header-img" />
+			</div>
+		</header>
+
+		<main>
+			<div id="contact-table">
+				<section id="contact-form">
+					<article>
+						<form action="mailto:sara.hakk24@gmail.com" method="post">
+							<label for="contact-name" class="form-label">Name:</label><br />
+							<input type="text" name="name" id="contact-name" value="" /><br />
+
+							<label for="contact-email" class="form-label">Email:</label><br />
+							<input type="text" name="email" id="contact-email" value="" /><br />
+
+							<label for="contact-subject" class="form-label">Subject:</label><br />
+							<input type="text" name="subject" id="contact-subject" value="" /><br />
+
+							<label for="contact-message" class="form-label">Message:</label><br />
+							<textarea name="message" id="contact-message" rows="10"></textarea><br />
+
+							<div id="submit-div">
+								<input type="submit" name="submit" id="contact-submit" value="Submit" />
+							</div>
+						</form>
+					</article>
+				</section>
+
+				<section id="contact-icon-set">
+					<article id="contact-text">
+						Use the form to shoot me an email, or get in touch with me through social media.
+					</article>
+
+					<article>
+						<a href="https://www.linkedin.com/in/sarahakkoum"><img src="../resources/in.png" class="contact-icon" /></a>
+						<a href="https://github.com/sarahakk"><img src="../resources/git.png" class="contact-icon" /></a>
+						<a href="https://twitter.com/sarabhakk"><img src="../resources/twit.png" class="contact-icon" /></a>
+						<a href="https://instagram.com/sarabhakk/"><img src="../resources/insta.png" class="contact-icon" /></a>
+						<a href="http://sarahakk.tumblr.com/"><img src="../resources/tumb.png" class="contact-icon" /></a>
+					</article>
+				</section>
+			</div>
+		</main>
+
+		<footer>
+			<div id="copyright">© Sara Hakkoum 2015.</div>
+		</footer>
+
+		<script type="text/javascript">
+			$(function() { setContactSize(); });
+		</script>
+	</body>
+</html>
